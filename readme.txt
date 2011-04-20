@@ -14,7 +14,7 @@ Stable tag: 1.0.0
 
 You can use aditional parameters: **`[pagelist depth="2" child_of="4" exclude="6,7,8"]`**.
 
-Plugin is based on [wp_list_pages('sort_column=menu_order&title_li=')](http://codex.wordpress.org/Template_Tags/wp_list_pages) function;
+Plugin is based on [wp_list_pages('title_li=')](http://codex.wordpress.org/Template_Tags/wp_list_pages) function;
 = Usage: =
 * the depth (how many levels in the hierarchy of pages are to be included in the list) by default is unlimited, but you can specify it like this: `[pagelist depth="3"]`;
 * if you want to show flat list of pages (not hierarchical tree) you can use this shortcode: `[pagelist depth="-1"]`;
