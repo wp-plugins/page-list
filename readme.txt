@@ -59,5 +59,5 @@ Shortcodes [pagelist], [subpages] and [siblings] accept the same parameters. The
 == Installation ==
 
 1. Install plugin and activate it on the Plugins page;
-2. Add shortcode **`[pagelist]`** to page content;
+2. Add shortcode **`[pagelist]`**, **`[subpages]`** or **`[siblings]`** to page content;
 
