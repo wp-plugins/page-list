@@ -100,6 +100,7 @@ if ( !function_exists('subpages_shortcode') ) {
 			'sort_order' => 'ASC',
 			'link_before' => '',
 			'link_after' => '',
+			'class' => ''
 		), $atts ) );
 		
 		$page_list_args = array(
@@ -157,6 +158,7 @@ if ( !function_exists('siblings_shortcode') ) {
 			'sort_order' => 'ASC',
 			'link_before' => '',
 			'link_after' => '',
+			'class' => ''
 		), $atts ) );
 		
 		$page_list_args = array(
