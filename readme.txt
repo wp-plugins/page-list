@@ -5,14 +5,14 @@ Plugin URI: http://web-profile.com.ua/wordpress/plugins/page-list/
 Tags: page, page-list, pagelist
 Author URI: http://web-profile.com.ua/wordpress/
 Requires at least: 3.0
-Tested up to: 3.1.1
-Stable tag: 1.2.0
+Tested up to: 3.1.2
+Stable tag: 1.3.0
 
 "Page-list" plugin helps you to show list of pages with [pagelist], [subpages] and [siblings] shortcodes.
 
 == Description ==
 
-You can use aditional parameters: **`[pagelist depth="2" child_of="4" exclude="6,7,8"]`**.
+You can use aditional parameters: `[pagelist depth="2" child_of="4" exclude="6,7,8"]`.
 
 Plugin is based on [wp_list_pages('title_li=')](http://codex.wordpress.org/Template_Tags/wp_list_pages) function;
 = Examples: =
@@ -48,9 +48,13 @@ Shortcodes [pagelist], [subpages] and [siblings] accept the same parameters. The
 * if you want to change the sort order of the list of pages (either ascending or descending) you can use this shortcode: `[pagelist sort_order="desc"]`; by default sort_order is `asc` (sort_order="asc"); you can use this values for `sort_order` parameter: asc, desc;
 * if you want to specify the text or html that precedes the link text inside the link tag you can use this shortcode: `[pagelist link_before="<span>"]`; you may specify html tags only in the `HTML` tab in your Rich-text editor;
 * if you want to specify the text or html that follows the link text inside the link tag you can use this shortcode: `[pagelist link_after="</span>"]`; you may specify html tags only in the `HTML` tab in your Rich-text editor;
-
+* if you want to specify the CSS class for list of pages you can use this shortcode: `[pagelist class="listclass"]`; by default the class is empty (class="");
 
 == Changelog ==
+
+= 1.3.0 =
+* Added class to ul elements by default;
+* Added "class" option (thanks to Kent);
 
 = 1.2.0 =
 * Added [subpages] and [siblings] shortcodes;
@@ -61,5 +65,5 @@ Shortcodes [pagelist], [subpages] and [siblings] accept the same parameters. The
 == Installation ==
 
 1. Install plugin and activate it on the Plugins page;
-2. Add shortcode **`[pagelist]`**, **`[subpages]`** or **`[siblings]`** to page content;
+2. Add shortcode `[pagelist]`, `[subpages]` or `[siblings]` to page content;
 
