@@ -54,7 +54,7 @@ Shortcodes [pagelist], [subpages] and [siblings] accept the same parameters. The
 
 = 1.3.0 =
 * Added class to ul elements by default;
-* Added "class" option (thanks to Kent);
+* Added "class" option (thanks to Arvind);
 
 = 1.2.0 =
 * Added [subpages] and [siblings] shortcodes;
