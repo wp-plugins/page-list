@@ -1,7 +1,7 @@
 === Page-list ===
 Contributors: webvitaly
 Plugin URI: http://web-profile.com.ua/wordpress/plugins/page-list/
-Tags: page, page-list, pagelist
+Tags: page, page-list, pagelist, sitemap, subpages
 Author URI: http://web-profile.com.ua/wordpress/
 Requires at least: 3.0
 Tested up to: 3.2
@@ -19,7 +19,7 @@ Plugin is based on [wp_list_pages('title_li=')](http://codex.wordpress.org/Templ
 * show hierarchical tree of subpages: `[subpages]`;
 * show hierarchical tree of sibling pages: `[siblings]`;
 
-[Login-Logout plugin page](http://web-profile.com.ua/wordpress/plugins/login-logout/)
+[Page-list plugin page](http://web-profile.com.ua/wordpress/plugins/page-list/)
 
 [WordPress stuff](http://web-profile.com.ua/wordpress/)
 
