@@ -1,11 +1,10 @@
 === Page-list ===
 Contributors: webvitaly
-Donate link: http://web-profile.com.ua/wordpress/plugins/page-list/
 Plugin URI: http://web-profile.com.ua/wordpress/plugins/page-list/
 Tags: page, page-list, pagelist
 Author URI: http://web-profile.com.ua/wordpress/
 Requires at least: 3.0
-Tested up to: 3.1.2
+Tested up to: 3.2
 Stable tag: 1.3.0
 
 "Page-list" plugin helps you to show list of pages with [pagelist], [subpages] and [siblings] shortcodes.
@@ -19,6 +18,8 @@ Plugin is based on [wp_list_pages('title_li=')](http://codex.wordpress.org/Templ
 * show hierarchical tree of pages: `[pagelist]`;
 * show hierarchical tree of subpages: `[subpages]`;
 * show hierarchical tree of sibling pages: `[siblings]`;
+
+[Login-Logout plugin page](http://web-profile.com.ua/wordpress/plugins/login-logout/)
 
 [WordPress stuff](http://web-profile.com.ua/wordpress/)
 
@@ -66,4 +67,3 @@ Shortcodes [pagelist], [subpages] and [siblings] accept the same parameters. The
 
 1. Install plugin and activate it on the Plugins page;
 2. Add shortcode `[pagelist]`, `[subpages]` or `[siblings]` to page content;
-
