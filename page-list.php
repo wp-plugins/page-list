@@ -206,8 +206,8 @@ if ( !function_exists('siblings_shortcode') ) {
 	add_shortcode( 'siblings', 'siblings_shortcode' );
 }
 
-if ( !function_exists('page_list_image_shortcode') ) {
-	function page_list_image_shortcode( $atts ) {
+if ( !function_exists('page_list_ext_shortcode') ) {
+	function page_list_ext_shortcode( $atts ) {
 		global $post;
 		$return = '';
 		extract( shortcode_atts( array(
@@ -280,5 +280,5 @@ if ( !function_exists('page_list_image_shortcode') ) {
 		}
 		return $return;
 	}
-	add_shortcode( 'pagelist_image', 'page_list_image_shortcode' );
+	add_shortcode( 'pagelist_ext', 'page_list_ext_shortcode' );
 }
