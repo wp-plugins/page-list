@@ -55,11 +55,6 @@ Shortcode [pagelist_image] accept the same parameters.
 * **class** - if you want to specify the CSS class for list of pages you can use this shortcode: `[pagelist class="listclass"]`; by default the class is empty (class="");
 
 = Parameters for [pagelist_image]: =
-
-
-'post_status' => $post_status,
-'class' => $class
-
 * **image_width** - width of the image `[pagelist_image image_width="80"]`; by default: image_width="40";
 * **image_height** - height of the image `[pagelist_image image_height="80"]`; by default: image_height="40";
 * **child_of** - if you want to show subpages of the specific page you can use this shortcode: `[pagelist_image child_of="4"]` where `4` is the ID of the specific page; by default it shows subpages to the current page;
