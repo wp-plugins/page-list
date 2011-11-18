@@ -17,7 +17,7 @@ Future features:
 
 add_action('wp_print_styles', 'page_list_add_stylesheet');
 function page_list_add_stylesheet() {
-	wp_enqueue_style( 'my-style', plugins_url( '/css/page-list.css', __FILE__ ), false, '1.5', 'all' );
+	wp_enqueue_style( 'my-style', plugins_url( '/css/page-list.css', __FILE__ ), false, '1.6', 'all' );
 }
 
 if ( !function_exists('pagelist_shortcode') ) {
