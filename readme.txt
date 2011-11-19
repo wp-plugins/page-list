@@ -86,6 +86,10 @@ Shortcode [pagelist_ext] accept the same parameters.
 == Changelog ==
 
 = 1.7 =
+* Added screenshots;
+* Improved parameter parsing;
+
+= 1.7 =
 * Added strip_tags parameter;
 
 = 1.6 =
