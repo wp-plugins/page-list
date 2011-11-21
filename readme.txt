@@ -30,7 +30,7 @@ You can use aditional parameters: **`[pagelist_ext child_of="4" exclude="6,7,8" 
 
 [CMS WordPress](http://web-profile.com.ua/wordpress/)
 
-== Other Notes ==
+== Usage ==
 
 = Parameters for [pagelist], [subpages] and [siblings]: =
 * **depth** - means how many levels in the hierarchy of pages are to be included in the list, by default depth is unlimited (depth=0), but you can specify it like this: `[pagelist depth="3"]`; If you want to show flat list of pages (not hierarchical tree) you can use this shortcode: `[pagelist depth="-1"]`;
