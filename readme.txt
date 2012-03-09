@@ -13,15 +13,16 @@ Plugin shows list of pages with [pagelist], [subpages], [siblings] and [pagelist
 
 = shortcodes: =
 
-* **[pagelist]** - hierarchical tree of all pages on site;
+* **[pagelist]** - hierarchical tree of all pages on site (useful to show sitemap of the site);
 * **[subpages]** - hierarchical tree of subpages to the current page;
 * **[siblings]** - hierarchical tree of sibling pages to the current page;
-* **[pagelist_ext]** - list of pages with featured image and with excerpt;
+* **[pagelist_ext]** - list of pages with featured image and with excerpt (useful to show list of products with images);
 
 = aditional parameters examples: =
 
 * `[pagelist depth="2" child_of="4" exclude="6,7,8"]`
 * `[pagelist_ext child_of="4" exclude="6,7,8" image_width="50" image_height="50"]`
+* visit [other notes](http://wordpress.org/extend/plugins/page-list/other_notes/) section to see all params
 
 [Page-list plugin page](http://web-profile.com.ua/wordpress/plugins/page-list/)
 
@@ -93,6 +94,8 @@ Shortcode [pagelist_ext] is based on [get_pages()](http://codex.wordpress.org/Fu
 
 Shortcodes [pagelist], [subpages] and [siblings] accept the same parameters. The only difference is that [subpages] and [siblings] not accept  `child_of` parameter, because [subpages] shows subpages to the current page and [siblings] shows subpages to the parent page.
 
+= How to create sitemap.xml? =
+To create sitemap.xml you can use [Google XML Sitemaps](http://wordpress.org/extend/plugins/google-sitemap-generator/) plugin.
 
 == Screenshots ==
 
