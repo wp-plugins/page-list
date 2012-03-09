@@ -11,12 +11,14 @@ Plugin shows list of pages with [pagelist], [subpages], [siblings] and [pagelist
 
 == Description ==
 
+= shortcodes: =
+
 * **[pagelist]** - hierarchical tree of all pages on site;
 * **[subpages]** - hierarchical tree of subpages to the current page;
 * **[siblings]** - hierarchical tree of sibling pages to the current page;
 * **[pagelist_ext]** - list of pages with featured image and with excerpt;
 
-You can use aditional parameters: 
+= aditional parameters examples: =
 
 * `[pagelist depth="2" child_of="4" exclude="6,7,8"]`
 * `[pagelist_ext child_of="4" exclude="6,7,8" image_width="50" image_height="50"]`
