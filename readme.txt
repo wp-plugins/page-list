@@ -1,11 +1,11 @@
-=== Page-list ===
+=== [pagelist] ===
 Contributors: webvitaly
 Plugin URI: http://web-profile.com.ua/wordpress/plugins/page-list/
 Tags: page, page-list, pagelist, sitemap, subpages, siblings
 Author URI: http://web-profile.com.ua/wordpress/
 Requires at least: 3.0
 Tested up to: 3.3.1
-Stable tag: 3.4
+Stable tag: 3.5
 
 [pagelist], [subpages], [siblings] and [pagelist_ext] shortcodes
 
@@ -115,6 +115,9 @@ But if you still need "more-link" feature and you will add it by yourself, than 
 2. [pagelist_ext] shortcode
 
 == Changelog ==
+
+= 3.5 =
+* showing all pages for [pagelist_ext child_of="0"] shortcode
 
 = 3.4 =
 * remove esc_attr() from title in [pagelist_ext] shortcode
