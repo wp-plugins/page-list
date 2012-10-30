@@ -509,3 +509,14 @@ if ( !function_exists('pagelist_unqprfx_get_first_image') ) {
 		return $first_img;
 	}
 }
+
+if ( !function_exists('pagelist_unqprfx_plugin_meta') ) {
+	function pagelist_unqprfx_plugin_meta( $links, $file ) { // add 'Support' and 'Donate' links to plugin meta row
+		if ( strpos( $file, 'page-list.php' ) !== false ) {
+			$links = array_merge( $links, array( '<a href="http://web-profile.com.ua/wordpress/plugins/page-list/" title="Need help?">' . __('Support') . '</a>' ) );
+			$links = array_merge( $links, array( '<a href="http://web-profile.com.ua/donate/" title="Support the development">' . __('Donate') . '</a>' ) );
+		}
+		return $links;
+	}
+	add_filter( 'plugin_row_meta', 'pagelist_unqprfx_plugin_meta', 10, 2 );
+}
