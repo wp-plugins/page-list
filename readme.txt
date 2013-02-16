@@ -125,7 +125,7 @@ When you changed the plugin's code you should also change the plugin's version t
 
 = 4.2 - 2013.02.16 =
 * fix in css styles (clearfix added to .page-list-ext)
-* make default image size 150x150 as default thumbnail size
+* make default image size 150x150 like default thumbnail size
 
 = 4.1 - 2013.01.27 =
 * change the type of output the image thumbnail in [pagelist_ext] shortcode
