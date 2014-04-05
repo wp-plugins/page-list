@@ -30,8 +30,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 * **[all Page-list params](http://wordpress.org/plugins/page-list/other_notes/)**
 
 = Useful: =
-* ["activetab" - responsive clean theme](http://wordpress.org/themes/activetab "responsive clean theme")
 * ["Anti-spam" - block spam in comments](http://wordpress.org/plugins/anti-spam/ "no spam, no captcha")
+* ["Security-protection" - blocks brute-force attacks](http://wordpress.org/plugins/security-protection/ "stops brute-force attacks")
 * ["Iframe" - embed iframe with shortcode](http://wordpress.org/plugins/iframe/ "embed iframe")
 
 == Other Notes ==
