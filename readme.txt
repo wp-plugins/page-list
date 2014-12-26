@@ -3,7 +3,7 @@ Contributors: webvitaly
 Donate link: http://web-profile.com.ua/donate/
 Tags: page, page-list, pagelist, sitemap, subpages, siblings
 Requires at least: 3.0
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: 4.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
@@ -12,10 +12,10 @@ License URI: http://www.gnu.org/licenses/gpl.html
 
 == Description ==
 
-**[WordPress Pro plugins](http://codecanyon.net/popular_item/by_category?category=wordpress&ref=webvitaly "WordPress Pro plugins")** |
-**[Page-list](http://web-profile.com.ua/wordpress/plugins/page-list/ "Plugin page")** |
-**[all Page-list params](http://wordpress.org/plugins/page-list/other_notes/)** |
-**[Donate](http://web-profile.com.ua/donate/ "Support the development")**
+> **[WordPress Pro plugins](http://codecanyon.net/popular_item/by_category?category=wordpress&ref=webvitaly)** |
+> **[Page-list](http://web-profile.com.ua/wordpress/plugins/page-list/ "Plugin page")** |
+> **[all Page-list params](http://wordpress.org/plugins/page-list/other_notes/)** |
+> **[Donate](http://web-profile.com.ua/donate/ "Support the development")**
 
 = shortcodes: =
 
@@ -32,8 +32,8 @@ License URI: http://www.gnu.org/licenses/gpl.html
 
 = Useful: =
 * ["Anti-spam" - block spam in comments](http://wordpress.org/plugins/anti-spam/ "no spam, no captcha")
-* ["Security-protection" - blocks brute-force attacks](http://wordpress.org/plugins/security-protection/ "stops brute-force attacks")
 * ["Iframe" - embed iframe with shortcode](http://wordpress.org/plugins/iframe/ "embed iframe")
+* [WordPress Pro plugins](http://codecanyon.net/popular_item/by_category?category=wordpress&ref=webvitaly)
 
 == Other Notes ==
 
