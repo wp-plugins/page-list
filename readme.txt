@@ -93,8 +93,8 @@ More [info about params](http://codex.wordpress.org/Function_Reference/wp_list_p
 * **strip_shortcodes** - strip registered shortcodes or not: `[pagelist_ext strip_shortcodes="0"]`; by default shortcodes are stripped (strip_shortcodes="1") and all registered shortcodes are removed;
 * **show_child_count** - show count of subpages: `[pagelist_ext show_child_count="1"]`; by default the child_count is disabled (show_child_count="0"); If show_child_count="1", but count of subpages=0, than child count is not shown;
 * **child_count_template** - the template of child_count: `[pagelist_ext show_child_count="1" child_count_template="Subpages: %child_count%"]`; by default child_count_template="Subpages: %child_count%";
-* **show_meta_key** - show or hide meta key: `[pagelist_ext show_meta_key="your_meta_key"]`; by default the show_meta_key is empty (show_meta_key=""); If show_meta_key is enabled, but meta_value is empty, than meta_key is not shown;
-* **meta_template** - the template of meta: `[pagelist_ext show_meta_key="your_meta_key" meta_template="Meta: %meta%"]`; by default meta_template="%meta%";
+* **show_meta_key** - show or hide meta key: `[pagelist_ext show_meta_key="your_meta_key"]`; by default the show_meta_key is empty (show_meta_key=""); А few meta keys can be separated by "|"; If show_meta_key is enabled, but meta_value is empty, than meta_key is not shown;
+* **meta_template** - the template of meta: `[pagelist_ext show_meta_key="your_meta_key" meta_template="Meta: %meta%"]`; by default meta_template="%meta%"; Provides a few templates separated by "|": `[pagelist_ext show_meta_key="your_meta_key1|your_meta_key2|your_meta_key3" meta_template="Meta1: %meta%|Meta2: %meta%|Meta3: %meta%"]`
 * columns - for splitting list of pages into columns: `[pagelist_ext class="page-list-cols-2"]`; available classes: page-list-cols-2, page-list-cols-3, page-list-cols-4, page-list-cols-5; works in all modern browsers and IE10+;  columns are responsive and become 1 column at less than 768px;
 
 More [info about params](http://codex.wordpress.org/Function_Reference/get_pages#Parameters) for [pagelist_ext].
