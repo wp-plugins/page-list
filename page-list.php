@@ -368,15 +368,19 @@ if ( !function_exists('pagelist_unqprfx_ext_shortcode') ) {
 							}
 						}
 						if ( $show_meta_key != '' ) {
-							$post_meta = get_post_meta($page->ID, $show_meta_key, true);
-							if ( !empty($post_meta) ) { // hide empty
-								$meta_pos = strpos($meta_template, '%meta%'); // check if we have %meta% marker in template
-								if ($meta_pos === false) { // %meta% not found in template
-									$meta_template_html = $meta_template.' '.$post_meta;
-									$list_pages_html .= '<div class="page-list-ext-meta">'.$meta_template_html.'</div>';
-								} else { // %meta% found in template
-									$meta_template_html = str_replace('%meta%', $post_meta, $meta_template);
-									$list_pages_html .= '<div class="page-list-ext-meta">'.$meta_template_html.'</div>';
+							$mk_templates = explode('|', $meta_template);
+							foreach(explode('|',$show_meta_key) as $mk_index=>$show_mk){
+								$meta_template = isset($mk_templates[$mk_index]) ? $mk_templates[$mk_index] : "%meta%";
+								$post_meta = get_post_meta($page->ID, $show_mk, true);
+								if ( !empty($post_meta) ) { // hide empty
+									$meta_pos = strpos($meta_template, '%meta%'); // check if we have %meta% marker in template
+									if ($meta_pos === false) { // %meta% not found in template
+										$meta_template_html = $meta_template.' '.$post_meta;
+										$list_pages_html .= '<div class="page-list-ext-meta">'.$meta_template_html.'</div>';
+									} else { // %meta% found in template
+										$meta_template_html = str_replace('%meta%', $post_meta, $meta_template);
+										$list_pages_html .= '<div class="page-list-ext-meta">'.$meta_template_html.'</div>';
+									}
 								}
 							}
 						}
